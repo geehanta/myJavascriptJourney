@@ -22,3 +22,18 @@ body{
 #shadow{
     box-shadow:0 10px 20px rgba(0,0,0,0.29),0 6px 6px rgba(0,0,0,0.43);
 }
+button{
+    width: 200px;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#increment_btn{
+    background-color: rgb(47, 47, 47); 
+}
+#save_btn{
+    margin-top: 20px;
+    background-color: darkgreen; 
+}
