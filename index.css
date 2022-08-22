@@ -33,6 +33,9 @@ button{
 #increment_btn{
     background-color: rgb(47, 47, 47); 
 }
+#decrement_btn{
+    background-color: darkred; 
+}
 #save_btn{
     margin-top: 20px;
     background-color: darkgreen; 

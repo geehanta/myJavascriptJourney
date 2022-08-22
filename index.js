@@ -42,5 +42,11 @@ function increment() {
     count_el.innerText = count;
     console.log(count);
 }
+function decrement() {
+    console.log("Subtracting 1")
+    count = count-1;
+    count_el.innerText = count;
+    console.log(count);
+}
 
 
