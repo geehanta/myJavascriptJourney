@@ -1,17 +1,18 @@
 body{
-    background-image: url("bg2.jpg");
-    background-size: cover;
+    /*background-image: url("bg2.jpg");
+    background-size: cover; */
+    background-color: #353634;
     margin: 10px;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 600px;
-    height:400px;
+    height:550px;
     color: rgb(63, 61, 61);
     margin-top: 5%;
-    margin-left:30%;
-    background-color: rgba(153, 163, 164 ,0.6);
+    margin-left:10%;
+    background-color: #668284;
     border: white;
     border-radius: 10px;
     border-width: 5px;
@@ -26,17 +27,21 @@ button{
     width: 200px;
     padding: 10px;
     height: 40px;
+    margin: 0 5px;
     color: white;
     font-weight: bold;
     border-radius: 5px;
 }
+#buttons_row{
+    display: flex;
+    flex-direction: row;
+}
 #increment_btn{
-    background-color: rgb(47, 47, 47); 
+    background-color: #353634; 
 }
 #decrement_btn{
-    background-color: darkred; 
+    background-color: #353634; 
 }
 #save_btn{
-    margin-top: 20px;
     background-color: darkgreen; 
 }

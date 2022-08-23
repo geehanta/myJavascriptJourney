@@ -38,7 +38,7 @@ let count_el = document.getElementById("count-el");
 
 function increment() {
     console.log("Adding 1")
-    count = count+1
+    count = count+1;
     count_el.innerText = count;
     console.log(count);
 }
